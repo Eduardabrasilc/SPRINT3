@@ -13,14 +13,14 @@
         <img src="assets/Imagem do WhatsApp de 2023-11-10 à(s) 18.13.54_5a8ce243.jpg">
         <div class="lista">
             <ul>
-                <li>Home</li>
-                <li>Projeto</li>
-                <li>Fundador</li>
-                <li>Serviços</li>
-                <li>Quiz</li>
+                <a href="#botao2">Home</a>
+                <a href="#proj">Projeto</a>
+                <a href="#fundador">Fundador</a>
+                <a href="#info">Serviços</a>
+                <a href="#quiz">Quiz</a>
             </ul>
             <div class="botao">
-                <button>Login</button>
+                <a id="botao2" href="file:///c%3A/Users/dudab/OneDrive/Documentos/SPRINT3/siteIndividual/public/login/cadastro.html" target="_blank">Login</a>
             </div>
         </div>
     </div>
@@ -52,13 +52,13 @@
 
         </div>
         <div class="button">
-            <button>Saiba mais!</button>
+            <a href="#proj" id="botao3">Saiba mais!</a>
         </div>
     </div>
 
     <div class="fundador">
         <div class="container-fund">
-            <div class="titulo">
+            <div class="titulo" id="fundador">
                 <h2>Sobre o fundador.</h2>
                 <div class="sobre">
                     <p>Sou a Maria Eduarda Brasil Costa, atualmente com 19 anos. Cursando Análise e Desenvolvimento de
@@ -98,7 +98,7 @@
         </div>
     </div>
 
-    <div class="projeto">
+    <div class="projeto" id="proj">
         <div class="titulo2">
             <h2>Sobre o projeto.</h2>
         </div>
@@ -144,7 +144,7 @@
                     ONG’S, além de poder doar alimentos e quantias para auxilio.</p>
             </div>
             <div class="causa-botao">
-                <button>CADASTRE-SE</button>
+                <a id="botao1" href="file:///c%3A/Users/dudab/OneDrive/Documentos/SPRINT3/siteIndividual/public/login/cadastro.html?#" target="_blank">CADASTRE-SE</a>
             </div>
         </div>
     </div>
@@ -157,7 +157,7 @@
             <div class="quiz-text">
                 <p>Você se considera um gateiro? Participe do nosso quiz e descubra curiosidades sobre os felinos!</p>
             </div>
-            <div class="quiz-botao">
+            <div class="quiz-botao" id="quiz">
                 <button onclick="">QUERO TENTAR!</button>
             </div>
         </div>
@@ -194,11 +194,13 @@
             <div class="agrad-card">
                 <div class="agrad-conteudo">
                     <img src="assets/Imagem do WhatsApp de 2023-10-28 à(s) 16.19.09_43f05176.jpg">
+                    <div class="agrad-text1">
                     <p>A priori, à aquele que me mostrou um amor genuino, saudades dolorosas e carinhos gostosos, meu
                         sinceros agradecimentos. Por despertar em mim o afeto pelos animais e a tamnha proteção a
                         aqueles que não posso pegar e cuidar.
                         Desta forma, desejo que viva muito, para que juntos possamos compartilhar experiências
                         inesquecíveis e eu nunca esqueça teu nome, meu Chiquinho</p>
+                    </div>
                 </div>
             </div>
             <div class="agrad-card2">
@@ -228,18 +230,31 @@
                         web, os desafios são oportunidades disfarçadas de crescimento e sucesso.</p>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="agrad-card3">
-                <div class="agrad-conteudo">
-                    <p> Aos meus amigos gradeço por cada palavra gentil, por cada gesto de solidariedade e por estarem presentes nos
-                        altos e baixos da minha jornada. Nos momentos de incerteza, por me ajudar,
-                        guiando-me com seus conhecimentos e apoio.
+    <div class="container9">
+        <div class="rodape">
+            <div class="tit-rodape">
+                <h2>Entre em contato conosco!</h2>
+            </div>
+            <div class="barra-rodape">
 
-                        É notável como a amizade é capaz de transformar desafios em oportunidades de crescimento e
-                        superação. Cada um de vocês trouxe uma luz única para a minha vida, tornando-a mais rica,
-                        significativa e cheia de amor.</p>
-                    <img src="assets/Imagem do WhatsApp de 2023-10-28 à(s) 16.19.09_43f05176.jpg" alt="">
+            </div>
+            <div class="input-rodape">
+                <div class="icon-rodape">
+                    <img src="" alt="">
                 </div>
+                <input type="text" id="input_rodape" placeholder="Digite seu e-mail aqui"><button onclick="enviar()" id="botao-rodape">Enviar</button>
+            </div>
+            <div class="info-rodape" id="info">
+                <p>Suporte técnico <br>
+                    (11)-99999-8888 <br>
+                    Rua Haddock Lobo 595, São Paulo, SP <br>
+                    01414-905</p> <p>Dúvidas e reclamações <br>
+                        (11)-98888-9999 <br>
+                        Rua Haddock Lobo 595, São Paulo, SP <br>
+                        01414-905</p>
             </div>
         </div>
     </div>
